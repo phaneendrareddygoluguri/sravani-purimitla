@@ -168,7 +168,7 @@ function HomeIndex() {
         <Grid container>
           <Grid item xs={12} md={6} className={"homeMainContainer"}>
             <h3>
-              Hello,I'm Phaneendra Reddy Goluguri And I'm a Front-End Developer{" "}
+              Hello,I'm Sravani Purimitla And I'm a Front-End Developer{" "}
             </h3>
             <p>
               {` I'm a Front-End Developer with extensive experience for over ${yearsAndMonthsCompleted()} . Expertise is to create and web design,Frontend design and
