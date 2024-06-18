@@ -23,7 +23,7 @@ export const constants = {
 
   Nav_Info: () => {
     return {
-      NAME: "Phaneendra Reddy Goluguri",
+      NAME: "Sravani Purimitla",
       PORTFOLIO: "Portfolio",
       LOGO_TYPE: "LogoB",
       HOME: "Home",
