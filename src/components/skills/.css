@@ -1,0 +1,121 @@
+.aboutContainer {
+  box-shadow: 0px 0px 3px #d3d3d349;
+  margin: 20px;
+  padding: 6px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  /* box-shadow: 1px 1px 1px #9696959c; */
+}
+.overview {
+  /* position: absolute; */
+  /* top: 108px; */
+  /* left: 180px; */
+  padding: 4px 20px;
+  /* border: 1px solid red; */
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  /* font-size: 26px; */
+  line-height: 4px;
+  font-weight: 800;
+  color: #323743ff; /* neutral-700 */
+  text-transform: capitalize;
+  margin: 10px 10px;
+}
+.about {
+  /* position: absolute; */
+  /* top: 108px; */
+  /* left: 180px; */
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  /* line-height: 30px; */
+  font-weight: 600;
+  color: #323743ff; /* neutral-700 */
+  text-transform: capitalize;
+  margin: 10px 10px;
+}
+.aboutContainerHeader {
+  /* margin: 0px 50px 0px 0px; */
+  /* border: 1px solid #9696959c; */
+  /* width: 100%; */
+  /* margin: 20px; */
+  /* padding: 6px; */
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.opentowork {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-family: Poppins; /* Body */
+  font-size: 18px;
+  line-height: 20px;
+  opacity: 1;
+  font-size: 12px;
+  line-height: 20px;
+  color: #31a0d8ff; /* secondary-500 */
+  background: #f2f9fdff; /* secondary-100 */
+}
+/* .opentoworkIcon {
+  width: 15px;
+  margin: 0px 4px;
+} */
+.aboutInfo {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  padding: 10px 10px;
+  color: #323743ff;
+}
+.courseCard {
+  margin: 4px;
+  /* border: 1px solid red; */
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px #d3d3d349;
+  height: 150px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.grapgcard {
+  padding: 10px;
+  margin: 4px;
+  border-radius: 8px;
+  background: #f7f2fdff;
+  box-shadow: 0px 0px 3px #d3d3d349;
+  /* border: 1px solid blue; */
+  height: 320px;
+  width: 220px;
+}
+.languageContainer {
+  display: flex;
+  align-items: center;
+}
+.languageText {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  /* line-height: 30px; */
+  font-weight: 600;
+  margin: 4px 10px;
+}
+.courseDataText {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.courseDataContainer {
+  padding: 6px 8px;
+  border-radius: 10px;
+  /* width: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #de3b40ff; /* danger-500 */
+  background: #fdf2f2ff; /*
+  /* border: 1px solid green; */
+}

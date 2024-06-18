@@ -1,0 +1,274 @@
+/* ---- About section---- */
+.openToworkContainer {
+  /* border: 1px solid red; */
+  background-color: rgb(226, 242, 248);
+  padding: 20px;
+  margin: 10px 0px !important;
+}
+.aboutInfoContainer {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: rgb(226, 242, 248);
+  /* border: 1px solid green; */
+  padding: 20px;
+  margin: 10px 0px !important;
+}
+.expDatContentInfo {
+  display: flex;
+  /* align-items: flex-end; */
+  flex-direction: column !important;
+  justify-content: flex-end;
+  height: 85% !important;
+  /* background-color: rgb(248, 246, 226); */
+  /* border: 1px solid green; */
+  padding: 20px;
+}
+.descriptionExpInfo {
+  padding: 20px;
+  font-family: "Poppins";
+}
+.centre-align {
+  padding: 20px 4px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 50px 0px 0px 100px; */
+}
+.imageContainer {
+  /* border: 2px solid red; */
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 0px;
+}
+.lokkingForJobContainer {
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.newJob {
+  margin: 10px;
+  margin: 0px !important;
+  font-family: "Poppins";
+  color: rgb(5, 121, 179);
+  /* margin-left: 50px; */
+}
+.role-description {
+  margin: 10px;
+  margin: 0px !important;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 12px;
+  max-width: 250px;
+  min-height: 50px;
+}
+
+.buttonStyles {
+  margin: 10px;
+  cursor: pointer;
+  padding: 6px 20px;
+  background-color: #7930d8ff;
+  color: white;
+  font-family: "Poppins";
+  border: 0px !important;
+  border-radius: 4px;
+}
+.buttonStyles:hover {
+  background-color: rgb(233, 216, 255);
+  color: rgb(5, 121, 179);
+}
+.about_info_Text {
+  font-family: "Poppins";
+  max-width: 90%;
+  font-size: 14px;
+}
+.whyChoosingMeHeading {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+}
+.whyChoosingMePoints {
+  /* display: inline-block; */
+  font-family: "Poppins";
+  font-size: 12px;
+  /* background-color: azure; */
+  /* padding: 8px; */
+}
+.whyChoosingMePoints span {
+  display: inline-block;
+  font-family: "Poppins";
+  font-size: 12px;
+  background-color: rgb(155, 67, 255);
+  padding: 4px 8px;
+  color: white;
+  border-radius: 10px;
+}
+/* ---- work experience section---- */
+.experience-container {
+  padding: 10px;
+  /* border: 1px solid red; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column !important; */
+  /* align-items: center; */
+}
+.expDatContent {
+  width: 100%;
+  margin: 6px;
+  /* border: 1px solid grey; */
+  display: flex;
+  border-radius: 4px;
+  /* justify-content: center; */
+  /* flex-direction: column !important; */
+  align-items: center;
+  padding: 2px 20px;
+}
+.expdescriptionDataContent {
+  height: 100% !important;
+  font-family: "Poppins";
+  background-color: antiquewhite;
+  /* font-size: 20px; */
+}
+.expDatContent img {
+  width: 80px;
+  height: 60px;
+}
+.infoTextExpContent {
+  margin-left: "auto";
+  margin-right: "auto";
+}
+.infoTextExpContent h4 {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: "Poppins";
+  font-size: 20px;
+  color: rgb(54, 54, 54);
+}
+.infoTextExpContent p {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+.experience-font {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+}
+.experience-card-container {
+  display: flex;
+  margin: 10px 10px;
+  border: 1px solid rgba(240, 240, 240, 0.658);
+  /* width: 800px; */
+  display: flex;
+  border-radius: 10px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  align-items: center;
+  padding: 6px;
+}
+
+.experience-icon {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100px; */
+  background-color: beige;
+  /* border: 1px solid green; */
+}
+.experience-icon img {
+  width: 40px;
+}
+
+.description-container {
+  margin: 0px 20px;
+  /* border: 1px solid gray; */
+}
+.description-container .roleContainer {
+  display: flex;
+  align-items: center;
+}
+.description-container .roleContainer .text {
+  font-family: "Poppins";
+  /* font-size: 16px; */
+  color: rgb(238, 163, 2);
+  font-size: 20px;
+  font-weight: 600;
+  /* margin-left: 5px; */
+}
+
+.roleContainer .chip-style {
+  margin: 0px 4px;
+  /* margin-bottom: 10px; */
+  display: inline-block;
+  /* height: 20px; */
+  padding: 4px 10px;
+  background: rgb(89, 167, 0);
+  color: #f2f9fdff;
+  font-family: "Poppins";
+  font-size: 10px;
+  border-radius: 10px;
+}
+.job-details-container {
+  /* border: 1px solid green; */
+  display: flex;
+  padding: 0px 10px;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-items: center;
+}
+.details-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.companyLogo {
+  width: "50px";
+  height: "50px";
+  margin: "5px";
+}
+.job-details-text {
+  font-family: "Poppins";
+  font-size: 12px !important;
+  border-radius: 10px;
+  font-weight: 600 !important;
+}
+.space-between {
+  /* max-width: 400px; */
+  margin-top: 10px;
+  margin-bottom: 18px;
+  font-family: "Poppins";
+  font-size: 12px !important;
+  border-radius: 10px;
+  font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 880px) {
+  .experience-card-container {
+    display: flex;
+    margin: 10px 10px;
+    border: 1px solid rgba(240, 240, 240, 0.658);
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    align-items: center;
+    padding: 6px;
+  }
+}

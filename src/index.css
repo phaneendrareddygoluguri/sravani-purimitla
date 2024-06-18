@@ -1,0 +1,23 @@
+/* Installed Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik:wght@500&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Rubik:wght@500&display=swap");
+/* font-family: 'Rubik', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@500;700&family=Rubik:wght@500&display=swap");
+/* font-family: 'Caveat', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Rubik+Dirt&display=swap");
+/* font-family: 'Rubik Dirt', cursive; */
+
+/* Coustom style imports */
+@import url("./components/skills/.css");
+@import url("./components/layout/.css");
+@import url("./components/home/.css");
+@import url("./components/about/.css");
+@import url("./components/project/.css");
+@import url("./components/experience/.css");
+@import url("./components/project/.css");
+
+body {
+  margin: 0px;
+}
