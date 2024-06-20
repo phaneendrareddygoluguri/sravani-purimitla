@@ -35,7 +35,7 @@ export const constants = {
       FOOTER_CONTENT_INFO: `Now is the time to make this CSS footer design fully responsive.
       Here I have used media to make it responsive. We just need to
 change some basics to make Footer Design responsive. First I gave`,
-      COPY_RIGHT: "copyRight@React - Muthyams - 2023",
+      COPY_RIGHT: "copyRight@Sravani-Purimitla- 2023",
       TEARMS: "Privacy - Terms - Conditions",
     };
   },
