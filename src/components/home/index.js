@@ -22,13 +22,10 @@ function HomeIndex() {
   const {
     Image8,
     projectImg1,
-    Proffessional,
     Sravani,
-    aboutImage,
     jsicon,
     reactlogo,
     htmlicon,
-    nodejsicon,
     muiicon,
     giticon,
     githubicon,
@@ -37,7 +34,6 @@ function HomeIndex() {
     reduxtoolkit,
     typescripticon,
     cssicon,
-    bitbucketicon,
     axiosicon,
   } = React.Imports(({ assets }) => assets);
   const { yearsAndMonthsCompleted, ReUsableCard } = React.Imports(
