@@ -23,6 +23,7 @@ function HomeIndex() {
     Image8,
     projectImg1,
     Proffessional,
+    Sravani,
     aboutImage,
     jsicon,
     reactlogo,
@@ -88,77 +89,77 @@ function HomeIndex() {
   const skills = [
     {
       language: "HTML",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: htmlicon,
     },
     {
       language: "CSS",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: cssicon,
     },
     {
       language: "JavaScript",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: jsicon,
     },
 
     {
       language: "ReactJS",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: reactlogo,
     },
 
     {
       language: "Redux Toolkit",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: reduxtoolkit,
     },
     {
       language: "Git",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: giticon,
     },
     {
       language: "GitHub",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: githubicon,
     },
     {
       language: "TypeScript",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: typescripticon,
     },
     {
       language: "Material-UI",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: muiicon,
     },
     {
       language: "Formik",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: formikicon,
     },
     {
       language: "Yup",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: yupicon,
     },
     {
       language: "Axios",
-      experience: yearsAndMonthsCompleted(),
+      // experience: yearsAndMonthsCompleted(),
       icon: axiosicon,
     },
-    {
-      language: "BitBucket",
-      experience: yearsAndMonthsCompleted(),
-      icon: bitbucketicon,
-    },
+    // {
+    //   language: "BitBucket",
+    //    experience: yearsAndMonthsCompleted(),
+    //   icon: bitbucketicon,
+    // },
 
-    {
-      language: "Node.JS",
-      experience: "0.6YR",
-      icon: nodejsicon,
-    },
+    // {
+    //   language: "Node.JS",
+    //   experience: "0.6YR",
+    //   icon: nodejsicon,
+    // },
   ];
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
@@ -171,7 +172,7 @@ function HomeIndex() {
               Hello,I'm Sravani Purimitla And I'm a Front-End Developer{" "}
             </h3>
             <p>
-              {` I'm a Front-End Developer with extensive experience for over ${yearsAndMonthsCompleted()} . Expertise is to create and web design,Frontend design and
+              {` I'm a Front-End Developer. Expertise is to create and web design,Frontend design and
               many more....`}
             </p>
           </Grid>
@@ -191,7 +192,7 @@ function HomeIndex() {
                   navigate("/project");
                 }}
               /> */}
-              <img src={Proffessional} alt="Profile" className="profileImage" />
+              <img src={Sravani} alt="Profile" className="profileImage" />
             </div>
           </Grid>
           <button
@@ -329,7 +330,7 @@ function HomeIndex() {
               </div>
             </div> */}
             <div className="aboutImageContent">
-              <img src={aboutImage} alt="Image9" className="aboutUSImage" />
+              <img src={Sravani} alt="Image9" className="aboutUSImage" />
               {/* <img src={Image6} alt="projects" className="ProjectsStamp" /> */}
               {/* <img src={Image4} alt="girlImage" className="profileImage" /> */}
             </div>

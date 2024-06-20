@@ -8,7 +8,7 @@ function AboutHeader() {
         <Box className="card-headings">
           <h5>Sravani Purimitla</h5>
           <p>
-            Passionate Frontend Developer 🧑‍💻| React.js 💻 | JavaScript 🌐| Redux
+            Passionate Frontend Developer 🧑‍💻| React.js 💻 | JavaScript 🌐| Redux-Toolkit
             🔄| TypeScript 📝| HTML 📄| CSS 🎨| Material-UI 🧱| Formik 📝| Yup
             ✅ | Axios 🌐 | Git & GitHub Enthusiast 🐙🔗
           </p>
