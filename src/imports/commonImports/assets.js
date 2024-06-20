@@ -67,7 +67,7 @@ import Work from "../../components/assets/work.png";
 import Cashapona from "../../components/assets/cp.png";
 import AiGenerated from "../../components/assets/aigenerated.png";
 import Proffessional from "../../components/assets/professional.png";
-import Sravani from "../../components/assets/SRAVANI.png"
+import Sravani from "../../components/assets/sravani.png"
 export const assets = {
   Logo,
   Cashapona,
