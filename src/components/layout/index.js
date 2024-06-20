@@ -50,7 +50,7 @@ function Layout({ children }) {
   const onDownload = () => {
     let a = document.createElement("a");
     a.href = resume;
-    a.download = "Phaneendra_Reddy_Goluguri_Resume";
+    a.download = "Sravani_Purimitla_Resume";
     a.click();
   };
 

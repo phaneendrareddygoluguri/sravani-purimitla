@@ -53,7 +53,7 @@ import wellFundImage from "../../components/assets/Screenshot 2023-12-06 134910.
 import mccImage from "../../components/assets/Screenshot 2023-12-06 135148.png";
 import ncukImage from "../../components/assets/Screenshot 2023-12-06 135932.png";
 import project from "../../components/assets/download.jpeg";
-import resume from "../../components/assets/Phaneendra0624Resume.pdf";
+import resume from "../../components/assets/SravaniPurimitla0624resume.pdf";
 import uiux from "../../components/assets/download.jpeg";
 import react from "../../components/assets/favicon.ico";
 import frontend from "../../components/assets/images.jpeg";
