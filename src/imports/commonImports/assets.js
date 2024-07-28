@@ -64,7 +64,7 @@ import tenth from "../../components/assets/iassravani.png";
 import Work from "../../components/assets/work.png";
 import Cashapona from "../../components/assets/cp.png";
 import Sravani from "../../components/assets/srav2.png";
-import passportpic from "../../components/assets/sravani.png";
+import passportpic from "../../components/assets/purimitla.png";
 export const assets = {
   Logo,
   Cashapona,
