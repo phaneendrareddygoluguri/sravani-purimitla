@@ -41,7 +41,6 @@ change some basics to make Footer Design responsive. First I gave`,
   },
 
   SkillsInfo: () => {
-    const { yearsAndMonthsCompleted } = React.Imports(({ utils }) => utils);
     return {
       HEADER: "overview",
       ABOUT: "about",

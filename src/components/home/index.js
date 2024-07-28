@@ -32,13 +32,10 @@ function HomeIndex() {
     formikicon,
     yupicon,
     reduxtoolkit,
-    typescripticon,
     cssicon,
     axiosicon,
   } = React.Imports(({ assets }) => assets);
-  const { yearsAndMonthsCompleted, ReUsableCard } = React.Imports(
-    ({ utils }) => utils
-  );
+  const { ReUsableCard } = React.Imports(({ utils }) => utils);
   // const {
   //   SignalWifi0BarIcon,
   //   ShareOutlinedIcon,
@@ -120,11 +117,6 @@ function HomeIndex() {
       // experience: yearsAndMonthsCompleted(),
       icon: githubicon,
     },
-    // {
-    //   language: "TypeScript",
-    //   experience: yearsAndMonthsCompleted(),
-    //   icon: typescripticon,
-    // },
     {
       language: "Material-UI",
       // experience: yearsAndMonthsCompleted(),
@@ -145,17 +137,6 @@ function HomeIndex() {
       // experience: yearsAndMonthsCompleted(),
       icon: axiosicon,
     },
-    // {
-    //   language: "BitBucket",
-    //    experience: yearsAndMonthsCompleted(),
-    //   icon: bitbucketicon,
-    // },
-
-    // {
-    //   language: "Node.JS",
-    //   experience: "0.6YR",
-    //   icon: nodejsicon,
-    // },
   ];
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
