@@ -30,7 +30,7 @@ import Msg from "../../components/assets/msg.png";
 import Peoplegrp from "../../components/assets/peoplegrp.png";
 import Mic from "../../components/assets/mic.png";
 import Person from "../../components/assets/person.png";
-import projectImg1 from "../../components/assets/proImg1.jpg";
+import yumyard from "../../components/assets/yumyard.png";
 import jsicon from "../../../src/components/assets/jsicon.png";
 import cssicon from "../../../src/components/assets/cssicon.jpeg";
 import reactlogo from "../../../src/components/assets/reactlogo.png";
@@ -64,11 +64,13 @@ import tenth from "../../components/assets/iassravani.png";
 import Work from "../../components/assets/work.png";
 import Cashapona from "../../components/assets/cp.png";
 import Sravani from "../../components/assets/srav2.png";
+import passportpic from "../../components/assets/sravani.png";
 export const assets = {
   Logo,
   Cashapona,
   Doller,
   Sravani,
+  passportpic,
   Idcard,
   Pepole,
   btech,
@@ -101,7 +103,7 @@ export const assets = {
   Person,
   ExperienceTwo,
   ExperienceThree,
-  projectImg1,
+  yumyard,
   ghiImage,
   sicImage,
   wellFundImage,

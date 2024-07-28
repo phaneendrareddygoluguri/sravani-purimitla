@@ -22,9 +22,7 @@
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  margin-top: 10px;
   font-family: Poppins;
   color: #fff;
   background: #7930d8ff;
@@ -59,7 +57,7 @@
   /* width: 100%; */
   object-fit: cover;
   margin-top: 50px;
-  width: 300px;
+  width: 280px;
   border-radius: 50%;
   background-color: #6a8dac;
   height: 300px;
@@ -141,9 +139,7 @@
 }
 .learnButton {
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 100%;
   font-family: Poppins;
   color: #fff;
   background: #7930d8ff;
@@ -316,7 +312,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 260px;
+  height: 300px;
   background: rgba(211, 215, 218, 0.76);
   border-radius: 12px;
 }

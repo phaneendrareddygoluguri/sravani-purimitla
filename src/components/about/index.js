@@ -10,9 +10,9 @@ function AboutIndex() {
   } = React.Imports(({ utils }) => utils);
   return (
     <div
-      style={{
-        padding: "10px 20px",
-      }}
+    // style={{
+    //   padding: "10px 20px",
+    // }}
     >
       <AboutHeader />
       <AboutCard />

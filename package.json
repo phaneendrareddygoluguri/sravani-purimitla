@@ -1,5 +1,5 @@
 {
-    "name": "phanee-portfolio",
+    "name": "sravani-portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -55,5 +55,5 @@
             "last 1 safari version"
         ]
     },
-    "homepage": "http://phanee-portfolio:1800"
+    "homepage": "http://sravani-portfolio:1800"
 }

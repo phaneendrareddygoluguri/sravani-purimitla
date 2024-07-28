@@ -314,17 +314,19 @@ function Layout({ children }) {
           <div className="logodownloadContainer">
             <IconLogo type={LOGO_TYPE} name={NAME} tagName={PORTFOLIO} />
 
-            <div className="optionaContent">
+            {/* <div className="optionaContent">
               <p
                 style={{
                   maxWidth: "500px",
-                  textAlign: "center",
                   fontWeight: "600px",
+                  display: "flex",
+                  justifyContent: "center",
+                  textAlign: "center",
                 }}
               >
                 {"Get In Touch"}
               </p>
-            </div>
+            </div> */}
           </div>
 
           <div className="footerActions">
@@ -342,7 +344,7 @@ function Layout({ children }) {
             <li class="social-icon__item">
               <a
                 class="social-icon__link"
-                href="www.linkedin.com/in/phaneendrareddy-goluguri-front-end-dev"
+                href="www.linkedin.com/in/purimitla-sravani-front-end-dev"
               >
                 <LinkedInIcon className="footerIcon" />{" "}
               </a>

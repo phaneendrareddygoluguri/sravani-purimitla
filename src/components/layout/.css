@@ -338,11 +338,11 @@
   /* border: 1px solid red; */
 }
 .footerActions {
-  margin: 4px 20px;
+  margin: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* border: 1px solid green; */
 }
 .copyRight {
@@ -356,7 +356,6 @@
   color: rgb(240, 240, 240);
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-
 
 .footer {
   position: relative;

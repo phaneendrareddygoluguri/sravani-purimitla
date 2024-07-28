@@ -19,17 +19,17 @@ function HomeIndex() {
       setQuote(res?.data?.results[randomNumber]?.content);
     });
   }, []);
-  const { Image8, projectImg1, Sravani } = React.Imports(
+  const { Image8, yumyard, Sravani, passportpic } = React.Imports(
     ({ assets }) => assets
   );
 
   const cardsData = [
     {
-      image: projectImg1,
+      image: yumyard,
       title: "YumYard",
       content:
         "YumYard is a dynamic and user-friendly food discovery and delivery platform developed using React. The application connects users with local restaurants and food outlets, offering a seamless experience for exploring diverse cuisines and ordering meals online.",
-      date: "Dec 23, 2021",
+      date: "June 13, 2024",
       readTime: "5 min read",
     },
   ];
@@ -52,7 +52,7 @@ function HomeIndex() {
           <Grid item xs={12} md={6} className={"homeMainContainer"}>
             <h3>Hello,I'm Sravani Purimitla And I'm a Front-End Developer </h3>
             <p>
-              {`An aspiring front-end developer passionate about crafting seamless web experiences. Equipped with skills in HTML, CSS, and JavaScript, I specialize in creating dynamic and user-friendly interfaces using modern technologies like ReactJS, Bootstrap, and Material UI. With expertise in advanced JavaScript, Redux Toolkit, Formik, Yup, and Axios, I build applications that are both functional and visually appealing. My strong foundation in responsive design ensures adaptability across all devices, while my commitment to writing clean, efficient code makes for scalable solutions. Proficient in Git and GitHub, I thrive in collaborative environments and am eager to contribute to a dynamic team, transforming ideas into impactful digital experiences.`}
+              {`An Aspiring Front-End Developer passionate about crafting seamless web experiences. Equipped with skills in HTML, CSS, and JavaScript, I specialize in creating dynamic and user-friendly interfaces using modern technologies like ReactJS, Bootstrap, and Material UI. With expertise in advanced JavaScript, Redux Toolkit, Formik, Yup, and Axios, I build applications that are both functional and visually appealing. My strong foundation in responsive design ensures adaptability across all devices, while my commitment to writing clean, efficient code makes for scalable solutions. Proficient in Git and GitHub, I thrive in collaborative environments and am eager to contribute to a dynamic team, transforming ideas into impactful digital experiences.`}
             </p>
           </Grid>
           <Grid
@@ -101,56 +101,12 @@ function HomeIndex() {
           >
             <a
               className="actionButton"
-              href="mailto:phaneendrareddygoluguri@gmail.com"
+              href="mailto:sravani235p@gmail.com"
+              style={{ "text-decoration": "none" }}
             >
               Get in Touch
             </a>
           </button>
-          {/* <div>
-                <Popover
-                  id={id}
-                  open={open}
-                  anchorEl={anchorEl}
-                  onClose={handleClose}
-                  anchorOrigin={{
-                    vertical: "bottom",
-                    horizontal: "left",
-                  }}
-                >
-                  <IconButton
-                    sx={{
-                      position: "absolute",
-                      top: 0,
-                      marginLeft: 32,
-                      zIndex: 1,
-                    }}
-                    onClick={handleClose}
-                  >
-                    <CloseIcon />
-                  </IconButton>
-                  <Typography
-                    sx={{ p: 2, fontWeight: 600, fontSize: "0.9rem" }}
-                  >
-                    Get in touch
-                  </Typography>
-                  <div>
-                    <Typography
-                      sx={{ display: "flex", alignItems: "center", p: 2 }}
-                    >
-                      <EmailIcon color="primary" sx={{ marginRight: 1 }} />
-                      <span className="popText">Mail</span>
-                    </Typography>
-                    <Typography
-                      sx={{ display: "flex", alignItems: "center", p: 2 }}
-                    >
-                      <WhatsAppIcon color="success" sx={{ marginRight: 1 }} />
-                      <span className="popText">Whatsapp</span>
-                    </Typography>
-                  </div>
-                </Popover>
-              </div> */}
-          {/* </div> */}
-          {/* </div> */}
         </Grid>
         <Grid container>
           <Grid item xs={12} md={6} className="aboutUSContainer">
@@ -215,6 +171,13 @@ function HomeIndex() {
                 users. Let's connect and turn ideas into reality!
               </p>
             </div>
+          </Grid>
+          <Grid item xs={12} md={6} className="aboutImageContainer" pl={4}>
+            <div className="aboutImageContent">
+              <img src={passportpic} alt="Image9" className="aboutUSImage" />
+            </div>
+          </Grid>
+          {/* <Grid item xs={12} md={6} className="aboutImageContainer" pl={4}>
             <button
               className="learnButton"
               onClick={() => {
@@ -223,38 +186,7 @@ function HomeIndex() {
             >
               Learn More
             </button>
-          </Grid>
-          <Grid item xs={12} md={6} className="aboutImageContainer" pl={4}>
-            {/* <div className="about-us">
-              <div className="about-container">
-                <div className="connection">
-                  <h5 className="connect-head">Eiusmod comm</h5>
-                  <div className="icons-names">
-                    <ul>
-                      <li style={{ background: "#7930d833" }}>
-                        <SignalWifi0BarIcon className="li-icons" />
-                        Connection
-                      </li>
-                      <li style={{ background: "rgb(32 151 225 / 20%)" }}>
-                        <ShareOutlinedIcon className="li-icons" />
-                        Share
-                      </li>
-                      <li style={{ background: "rgb(201 150 12 / 14%)" }}>
-                        <FastForwardOutlinedIcon className="li-icons" />
-                        instantiate
-                      </li>
-                    </ul>{" "}
-                  </div>
-                </div>
-                <img src={Image9} alt="Image9" className="img9" />
-              </div>
-            </div> */}
-            <div className="aboutImageContent">
-              <img src={Sravani} alt="Image9" className="aboutUSImage" />
-              {/* <img src={Image6} alt="projects" className="ProjectsStamp" /> */}
-              {/* <img src={Image4} alt="girlImage" className="profileImage" /> */}
-            </div>
-          </Grid>
+          </Grid> */}
         </Grid>
         <Grid container className="projetContainer">
           <h2>Projects</h2>

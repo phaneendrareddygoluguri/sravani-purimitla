@@ -594,19 +594,26 @@ change some basics to make Footer Design responsive. First I gave`,
   WhyChoosingMeReasons: () => {
     return {
       REASONS: [
-        "strong Knowledge in React and Javascript.",
+        "Strong Knowledge in React and Javascript.",
         "Problem-Solving Skills.",
         "Continuous Learning.",
         "UI/UX Design Skills.",
         "Project Management",
+        "Version Control (Git and GitHub)",
+        "Responsive Web Design",
+        "Basic Knowledge of Backend Technologies",
       ],
     };
   },
   Description: () => {
-    const { yearsAndMonthsCompleted } = React.Imports(({ utils }) => utils);
     return {
       DESCRIPTION: [
-        `${yearsAndMonthsCompleted()} of work experience as a React JS (JavaScript library) Web Developer ,Developed reusable components using the React JS library for the user interface.	Exposed to working with the latest react hooks functional programming.	Strong hands-on experience with Forms, and data tables.Integrated Redux store management to drill down API response throughout all the reusable components.Experience with Formik, Yup, Material UI.	Worked with the promise-based HTTP client Axios and Fetch to interface the resources from API (Application Programming Interface).	Involved in requirement analysis, design and development.	Experience in using GIT for code repository and as version control mechanism.	Ability to be creative and take self-initiatives to manage multiple projects in parallel during critical situations.  Ability to work independently and with a team.`,
+        `I am Purimitla Sravani
+, a front-end developer with a passion for building dynamic and user-centric web applications. I have a solid foundation in HTML, CSS, and JavaScript, and I specialize in using ReactJS to create interactive and responsive interfaces. My skills extend to Bootstrap, Material UI, and advanced JavaScript techniques, allowing me to design visually appealing and adaptable applications.
+
+I am proficient in state management with Redux Toolkit and API handling using Axios, ensuring efficient data flow and seamless user experiences. My expertise in form handling with Formik and Yup enables me to implement robust validation and user-friendly forms. I am experienced with version control using Git and GitHub, facilitating effective collaboration and project management.
+
+I am eager to contribute my skills to a forward-thinking team, leveraging my technical expertise to develop innovative digital solutions that meet user needs and exceed expectations.`,
       ],
     };
   },
@@ -961,31 +968,15 @@ change some basics to make Footer Design responsive. First I gave`,
       ({ icons }) => icons
     );
 
-    const { uiux, react, frontend, fullstack, javascript, nodejs } =
-      React.Imports(({ assets }) => assets);
+    const { react, frontend, javascript } = React.Imports(
+      ({ assets }) => assets
+    );
     return {
       ABOUT_ROLES_CARD: [
         {
-          icon1: uiux,
-          iconData: "UI / UX Designer",
-          salary: "$95K - $120K",
-          icon2: <HomeIcon style={{ color: "#9095A1FF", margin: "10px" }} />,
-          iconData2: "Laborum",
-          icon3: (
-            <RoomOutlinedIcon style={{ color: "#9095A1FF", margin: "10px" }} />
-          ),
-          location: "AP",
-          icon4: (
-            <BookmarkBorderIcon
-              style={{ color: "#9095A1FF", margin: "10px" }}
-            />
-          ),
-          jobType: "Remote",
-        },
-        {
           icon1: react,
-          iconData: "react Developer",
-          salary: "$95K - $120K",
+          iconData: "ReactJS Developer",
+          salary: "3-4LPA",
           icon2: <HomeIcon style={{ color: "#9095A1FF", margin: "10px" }} />,
           iconData2: "Laborum",
           icon3: (
@@ -1001,8 +992,8 @@ change some basics to make Footer Design responsive. First I gave`,
         },
         {
           icon1: frontend,
-          iconData: "Frontend Developer",
-          salary: "$1l - $5l",
+          iconData: "Front-End Developer",
+          salary: "3-4LPA",
           icon2: <HomeIcon style={{ color: "#9095A1FF", margin: "10px" }} />,
           iconData2: "Laborum",
           icon3: (
@@ -1018,42 +1009,8 @@ change some basics to make Footer Design responsive. First I gave`,
         },
         {
           icon1: javascript,
-          iconData: "javascript Developer",
-          salary: "$1l - $5l",
-          icon2: <HomeIcon style={{ color: "#9095A1FF", margin: "10px" }} />,
-          iconData2: "Laborum",
-          icon3: (
-            <RoomOutlinedIcon style={{ color: "#9095A1FF", margin: "10px" }} />
-          ),
-          location: "AP",
-          icon4: (
-            <BookmarkBorderIcon
-              style={{ color: "#9095A1FF", margin: "10px" }}
-            />
-          ),
-          jobType: "Remote",
-        },
-        {
-          icon1: fullstack,
-          iconData: "Full Stack developer",
-          salary: "$2K - $6K",
-          icon2: <HomeIcon style={{ color: "#9095A1FF", margin: "10px" }} />,
-          iconData2: "Laborum",
-          icon3: (
-            <RoomOutlinedIcon style={{ color: "#9095A1FF", margin: "10px" }} />
-          ),
-          location: "AP",
-          icon4: (
-            <BookmarkBorderIcon
-              style={{ color: "#9095A1FF", margin: "10px" }}
-            />
-          ),
-          jobType: "Remote",
-        },
-        {
-          icon1: nodejs,
-          iconData: "nodejs developer",
-          salary: "$90K - $120K",
+          iconData: "Javascript Developer",
+          salary: "3-4LPA",
           icon2: <HomeIcon style={{ color: "#9095A1FF", margin: "10px" }} />,
           iconData2: "Laborum",
           icon3: (
