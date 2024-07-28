@@ -46,7 +46,7 @@ change some basics to make Footer Design responsive. First I gave`,
       HEADER: "overview",
       ABOUT: "about",
       OPEN_TO_WORK: "Open To Work",
-      ABOUT_INFO: `•	${yearsAndMonthsCompleted()} of work experience as a React JS (JavaScript library) Web Developer. 
+      ABOUT_INFO: `•I'm a React JS (JavaScript library) Web Developer. 
       •	Developed reusable components using the React JS library for the user interface.
       •	Exposed to working with the latest react hooks functional programming.
       •	Strong hands-on experience with Forms, and data tables.
@@ -780,10 +780,10 @@ change some basics to make Footer Design responsive. First I gave`,
                 name: "GitHub",
                 value: 600,
               },
-              {
-                name: "TypeScript",
-                value: 600,
-              },
+              // {
+              //   name: "TypeScript",
+              //   value: 600,
+              // },
               {
                 name: "Formik",
                 value: 600,

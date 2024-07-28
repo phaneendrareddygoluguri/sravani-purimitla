@@ -120,11 +120,11 @@ function HomeIndex() {
       // experience: yearsAndMonthsCompleted(),
       icon: githubicon,
     },
-    {
-      language: "TypeScript",
-      // experience: yearsAndMonthsCompleted(),
-      icon: typescripticon,
-    },
+    // {
+    //   language: "TypeScript",
+    //   experience: yearsAndMonthsCompleted(),
+    //   icon: typescripticon,
+    // },
     {
       language: "Material-UI",
       // experience: yearsAndMonthsCompleted(),
@@ -164,12 +164,9 @@ function HomeIndex() {
       <Grid container>
         <Grid container>
           <Grid item xs={12} md={6} className={"homeMainContainer"}>
-            <h3>
-              Hello,I'm Sravani Purimitla And I'm a Front-End Developer{" "}
-            </h3>
+            <h3>Hello,I'm Sravani Purimitla And I'm a Front-End Developer </h3>
             <p>
-              {` I'm a Front-End Developer. Expertise is to create and web design,Frontend design and
-              many more....`}
+              {`An aspiring front-end developer passionate about crafting seamless web experiences. Equipped with skills in HTML, CSS, and JavaScript, I specialize in creating dynamic and user-friendly interfaces using modern technologies like ReactJS, Bootstrap, and Material UI. With expertise in advanced JavaScript, Redux Toolkit, Formik, Yup, and Axios, I build applications that are both functional and visually appealing. My strong foundation in responsive design ensures adaptability across all devices, while my commitment to writing clean, efficient code makes for scalable solutions. Proficient in Git and GitHub, I thrive in collaborative environments and am eager to contribute to a dynamic team, transforming ideas into impactful digital experiences.`}
             </p>
           </Grid>
           <Grid
@@ -275,22 +272,59 @@ function HomeIndex() {
               <h3>About</h3>
               <img src={Image8} width={"80%"} alt="img" className="about-img" />
             </div>
-            <p>
-              {`•${yearsAndMonthsCompleted()} of work experience as a React JS (JavaScript library) Web Developer. • Developed reusable
-              components using the React JS library for the user interface. •
-              Exposed to working with the latest react hooks functional
-              programming. • Strong hands-on experience with Forms, and data
-              tables. • Experience with Formik, Yup, Material UI. • Integrated
-              Redux store management to drill down API response throughout all
-              the reusable components. • Worked with the promise-based HTTP
-              client Axios and Fetch to interface the resources from API
-              (Application Programming Interface). • Involved in requirement
-              analysis, design and development. • Experience in using GIT for
-              code repository and as version control mechanism. • Ability to be
-              creative and take self-initiatives to manage multiple projects in
-              parallel during critical situations. . Ability to work
-              independently and with a team.............`}
-            </p>
+            <div>
+              <h1>{`🌟 Aspiring Front-End Developer | Crafting Seamless Web Experiences 🌟`}</h1>
+              <p>{`Hello! I'm ${(
+                <b>Sravani Purimitla</b>
+              )}, a passionate front-end developer with a knack for creating dynamic and user-friendly web interfaces. Armed with a robust toolkit that includes HTML, CSS, JavaScript, and a suite of modern technologies, I am ready to dive into the exciting world of web development.`}</p>
+              <h2>{`🔧 Skills & Tools:`}</h2>
+              <p>
+                <b>Core Technologies: </b>HTML, CSS, JavaScript
+              </p>
+              <p>
+                <b>Frameworks & Libraries:</b> ReactJS, Bootstrap, Material UI
+              </p>
+              <p>
+                <b>State Management & APIs:</b> Redux Toolkit, Axios
+              </p>
+              <p>
+                <b>Form Handling:</b> Formik, Yup
+              </p>
+              <p>
+                <b>Version Control:</b> Git & GitHub
+              </p>
+
+              <p>
+                With a strong foundation in advanced JavaScript and a keen eye
+                for design, I build applications that are not only functional
+                but also visually appealing. I thrive on the challenge of
+                transforming complex problems into simple, elegant solutions and
+                am constantly exploring new ways to enhance user experiences.
+              </p>
+
+              <h2>{`🌱 What I Bring:`}</h2>
+              <p>
+                <b>Responsive Design:</b>Building adaptable interfaces for all
+                devices
+              </p>
+              <p>
+                <b>Interactive Features:</b> Utilizing ReactJS to create
+                engaging components
+              </p>
+              <p>
+                <b>Code Efficiency:</b> Writing clean, maintainable, and
+                scalable code
+              </p>
+              <p>
+                <b>Collaboration:</b>Experience with Git and GitHub for
+                effective teamwork
+              </p>
+              <p>
+                I am eager to contribute my skills and grow within a dynamic
+                team, creating impactful digital experiences that resonate with
+                users. Let's connect and turn ideas into reality!
+              </p>
+            </div>
             <button
               className="learnButton"
               onClick={() => {
