@@ -45,16 +45,16 @@ change some basics to make Footer Design responsive. First I gave`,
       HEADER: "overview",
       ABOUT: "about",
       OPEN_TO_WORK: "Open To Work",
-      ABOUT_INFO: `•I'm a React JS (JavaScript library) Web Developer. 
-      •	Developed reusable components using the React JS library for the user interface.
-      •	Exposed to working with the latest react hooks functional programming.
-      •	Strong hands-on experience with Forms, and data tables.
-      •	Integrated Redux store management to drill down API response throughout all the reusable components.
-      •	Experience with Formik, Yup, Material UI.
-      •	Worked with the promise-based HTTP client Axios and Fetch to interface the resources from API (Application Programming Interface).
-      •	Involved in requirement analysis, design and development.
-      •	Experience in using GIT for code repository and as version control mechanism.
-      •	Ability to be creative and take self-initiatives to manage multiple projects in parallel during critical situations.
+      ABOUT_INFO: `I'm a React JS (JavaScript library) Web Developer. 
+      	Developed reusable components using the React JS library for the user interface.
+      	Exposed to working with the latest react hooks functional programming.
+      	Strong hands-on experience with Forms, and data tables.
+      	Integrated Redux store management to drill down API response throughout all the reusable components.
+      	Experience with Formik, Yup, Material UI.
+      	Worked with the promise-based HTTP client Axios and Fetch to interface the resources from API (Application Programming Interface).
+      	Involved in requirement analysis, design and development.
+      	Experience in using GIT for code repository and as version control mechanism.
+      	Ability to be creative and take self-initiatives to manage multiple projects in parallel during critical situations.
       .   Ability to work independently and with a team.       
       `,
       LANGUAGES_INFO: [
@@ -779,10 +779,6 @@ change some basics to make Footer Design responsive. First I gave`,
                 name: "GitHub",
                 value: 600,
               },
-              // {
-              //   name: "TypeScript",
-              //   value: 600,
-              // },
               {
                 name: "Formik",
                 value: 600,
@@ -796,16 +792,8 @@ change some basics to make Footer Design responsive. First I gave`,
                 value: 600,
               },
               {
-                name: "BitBucket",
-                value: 600,
-              },
-              {
                 name: "Material-UI",
                 value: 600,
-              },
-              {
-                name: "Node.JS",
-                value: 400,
               },
             ],
           },
@@ -815,31 +803,29 @@ change some basics to make Footer Design responsive. First I gave`,
   },
 
   AboutExpCard: () => {
-    const { vasavi, pragathi, bhashyam } = React.Imports(
-      ({ assets }) => assets
-    );
+    const { btech, inter, tenth } = React.Imports(({ assets }) => assets);
     return {
       ABOUT_DESCRIPTION_CARD: [
         {
-          icon: vasavi,
-          role: "Sri Vasavi Engineering College",
-          place: "Tadepalligudem",
-          jobDescription: "B-Tech,E.C.E",
-          jobDuration: "2016 - 2020",
+          icon: btech,
+          role: "RamiReddy SubbaRami Reddy Engineering College",
+          place: "Nellore",
+          jobDescription: "B-Tech,E.E.E",
+          jobDuration: "2019 - 2023",
         },
         {
-          icon: pragathi,
-          role: "Pragathi Juniour Colleage.",
-          place: "Tanuku.",
+          icon: inter,
+          role: "Narayana Juniour Colleage.",
+          place: "Kavali.",
           jobDescription: "M.P.C",
-          jobDuration: "2014 - 2016",
+          jobDuration: "2017 - 2019",
         },
         {
-          icon: bhashyam,
-          role: "Bhashyam Public School.",
+          icon: tenth,
+          role: "Indian Academic High School",
           place: "Tanuku.",
           jobDescription: "-",
-          jobDuration: "2013 - 2014",
+          jobDuration: "2016 - 2017",
         },
       ],
     };
@@ -1085,108 +1071,27 @@ change some basics to make Footer Design responsive. First I gave`,
     };
   },
   ProjectsInfoData: () => {
-    const { ghiImage, sicImage, wellFundImage, ncukImage, project } =
-      React.Imports(({ assets }) => assets);
+    const { ncukImage } = React.Imports(({ assets }) => assets);
     return {
       PROJECT_INFO_DATA: [
         {
-          ProjectName: "NCUK-The University Consortium",
+          ProjectName: "YumYard: Where Every Bite is a Culinary Adventure!",
           Role: "ReactJS Developer",
           About:
-            "NCUK is unique in UK higher education. It is a consortium of leading UK universities dedicated to giving international students guaranteed access to universities worldwide and help them to succeed.Features allow the students and university to maintain the data and Files for the admission process. It also includes the faculty role and diﬀerent feedback form",
+            "YumYard is a dynamic and user-friendly food discovery and delivery platform developed using React. The application connects users with local restaurants and food outlets, offering a seamless experience for exploring diverse cuisines and ordering meals online.",
           Image: ncukImage,
           ImageStatus: "notOwned",
           RolesAndResponsiblities: {
             pointOne:
-              "Design, develop and test HTML5, CSS3, Bootstrap, Java Script and React.JS that meets accessibility and web browser standards for website.",
+              "Designed and developed the frontend architecture using React components and state management.",
             pointTwo:
-              "Worked on Sharing Files through using Decode and Encode routing.",
+              "Implemented RESTful APIs to facilitate communication between the frontend and backend.",
             pointThree:
               "	Used React-Router to turn application into Single Page Application",
             pointFour:
-              "Worked in using React JS components, Forms, Events, Keys, Router and Redux concept.",
+              "Ensured cross-platform compatibility and responsiveness with mobile-first design principles.",
             pointFive:
-              "Used the Restful web service calls for POST, PUT, DELETE and GET methods.",
-          },
-        },
-        {
-          ProjectName: "PDS Galaxy",
-          Role: "ReactJS Developer",
-          About:
-            "PDS Galaxy provides end-to-end services for the Health sector.Managing various services like Insurance Billing and follow-up, Early Out and patient Access, Bad Debt and collections, Accident Claims and workers' Compensation, and State and federal Health care Enrolment Assistance.",
-          Image: ghiImage,
-          ImageStatus: "notOwned",
-          RolesAndResponsiblities: {
-            pointOne:
-              "Design, develop and test HTML5, CSS3, Bootstrap, Java Script and React.JS that meets accessibility and web browser standards for website.",
-            pointTwo:
-              "Worked on Sharing Files through using Decode and Encode routing.",
-            pointThree:
-              "	Used React-Router to turn application into Single Page Application",
-            pointFour:
-              "Worked in using React JS components, Forms, Events, Keys, Router and Redux concept.",
-            pointFive:
-              "Used the Restful web service calls for POST, PUT, DELETE and GET methods.",
-          },
-        },
-        {
-          ProjectName: "Campaign Manager",
-          Role: "ReactJS Developer",
-          About:
-            "Campaign Manager is provides campaign services.●	Campaign Manager Managing various services like Creating the templates which is used to communicate with clients",
-          Image: sicImage,
-          ImageStatus: "notOwned",
-          RolesAndResponsiblities: {
-            pointOne:
-              "Worked on Developing a web application to view the following modules: Campaign Maintenance, Template maintenance.",
-            pointTwo:
-              "Integrated REST APIs as per the requirement. Used Redux tool kit and context for maintaining global state of the application",
-            pointThree:
-              "Integrated User defined forms using reusable React components",
-            pointFour:
-              "Integrated dynamic form where user can provide the form fields and validations",
-            pointFive:
-              "Used the Restful web service calls for POST, PUT, DELETE and GET methods.",
-          },
-        },
-        {
-          ProjectName: "Wellfund",
-          Role: "ReactJS Developer",
-          About:
-            "Clients serve for Health care domain in USA educating individuals on their healthcare options while Providing guidance in the enrolment process for both state and federally funded programs and assisting Individuals with all their medical coverage needs. The well fund is a web-based application where it has Been operated by authorized agent who has the permission to enter in to the application securely. The main Purpose of the application is having a thousands of patient’s records which are added by an agent and Checking the eligibility of a patient according to the details. Differentiate the patients who is having medical Benefits and insured funded.",
-          Image: wellFundImage,
-          ImageStatus: "notOwned",
-          RolesAndResponsiblities: {
-            pointOne:
-              "Design, develop and test HTML5, CSS3, Bootstrap, Java Script and React.JS that meets accessibility and web browser standards for website.",
-            pointTwo:
-              "Worked on Sharing Files through using Decode and Encode routing.",
-            pointThree:
-              "	Used React-Router to turn application into Single Page Application",
-            pointFour:
-              "Worked in using React JS components, Forms, Events, Keys, Router and Redux concept.",
-            pointFive:
-              "Used the Restful web service calls for POST, PUT, DELETE and GET methods.",
-          },
-        },
-        {
-          ProjectName: "MY COVERAGE CARE",
-          Role: "ReactJS Developer",
-          About:
-            "This Portal enables to provide the eligible insurance for the user based on the Income My coverage care provides end to end services for the Health Insurance sector.",
-          Image: project,
-          ImageStatus: "Owned",
-          RolesAndResponsiblities: {
-            pointOne:
-              "Design, develop and test HTML5, CSS3, Bootstrap, Java Script and React.JS that meets accessibility and web browser standards for website.",
-            pointTwo:
-              "Worked on Sharing Files through using Decode and Encode routing.",
-            pointThree:
-              "	Used React-Router to turn application into Single Page Application",
-            pointFour:
-              "Worked in using React JS components, Forms, Events, Keys, Router and Redux concept.",
-            pointFive:
-              "Used the Restful web service calls for POST, PUT, DELETE and GET methods.",
+              "Conducted thorough testing and debugging to enhance application performance and reliability.",
           },
         },
       ],
@@ -1216,11 +1121,6 @@ change some basics to make Footer Design responsive. First I gave`,
             name: "Redux And ReduxToolkit",
             PluginDescs:
               " Redux Toolkit is our official, opinionated, batteries-included toolset for efficient Redux development. It is intended to be the standard way to write Redux logic, and we strongly recommend that you use it.It includes several utility functions that simplify the most common Redux use cases, including store setup, defining reducers, immutable update logic, and even creating entire `slices` of state at once without writing any action creators or action types by hand. It also includes the most widely used Redux addons, like Redux Thunk for async logic and Reselect for writing selector functions, so that you can use them right away.",
-          },
-          {
-            name: "EslintPlug in",
-            PluginDescs:
-              "ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.ESLint is completely pluggable. Every single rule is a plugin and you can add more at runtime. You can also add community plugins, configurations, and parsers to extend the functionality of ESLint.",
           },
           {
             name: "React Router ",

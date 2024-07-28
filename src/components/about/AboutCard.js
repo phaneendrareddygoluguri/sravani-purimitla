@@ -6,7 +6,7 @@ const AboutCard = () => {
   const React = document.React;
   const { SkillsInfo } = React.Imports(({ constants }) => constants);
   const { WorkIcon } = React.Imports(({ icons }) => icons);
-  const {  ABOUT, OPEN_TO_WORK, ABOUT_INFO } = SkillsInfo();
+  const { ABOUT, OPEN_TO_WORK, ABOUT_INFO } = SkillsInfo();
   const { WhyChoosingMe } = React.Imports(({ utils }) => utils);
   const { WhyChoosingMeReasons } = React.Imports(({ constants }) => constants);
   const { REASONS } = WhyChoosingMeReasons();
@@ -18,6 +18,10 @@ const AboutCard = () => {
   // const { AboutExpIcon } = React.Imports(({ assets }) => assets);
   // const { AboutExpCard } = React.Imports(({ constants }) => constants);
   // const { ABOUT_DESCRIPTION_CARD } = AboutExpCard();
+  const listItems = ABOUT_INFO.split(".")
+    .map((item, index) => item.trim())
+    .filter((item) => item)
+    .map((item, index) => <li key={index}>{item}</li>);
   return (
     <div
       style={{
@@ -33,7 +37,9 @@ const AboutCard = () => {
           </div>
         </div>
       </div>
-      <div className="aboutInfo">{ABOUT_INFO}</div>
+      <div className="aboutInfo">
+        <ul>{listItems}</ul>
+      </div>
 
       <Grid
         container

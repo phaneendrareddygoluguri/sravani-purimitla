@@ -19,55 +19,19 @@ function HomeIndex() {
       setQuote(res?.data?.results[randomNumber]?.content);
     });
   }, []);
-  const {
-    Image8,
-    projectImg1,
-    Sravani,
-    jsicon,
-    reactlogo,
-    htmlicon,
-    muiicon,
-    giticon,
-    githubicon,
-    formikicon,
-    yupicon,
-    reduxtoolkit,
-    cssicon,
-    axiosicon,
-  } = React.Imports(({ assets }) => assets);
-  const { ReUsableCard } = React.Imports(({ utils }) => utils);
-  // const {
-  //   SignalWifi0BarIcon,
-  //   ShareOutlinedIcon,
-  //   FastForwardOutlinedIcon,
-  //   CloseIcon,
-  // } = React.Imports(({ icons }) => icons);
-  const { ReactECharts } = React.Imports(({ ECharts }) => ECharts);
-  const { DonutOptions } = React.Imports(({ constants }) => constants);
-  const { DONUT_OPTIONS } = DonutOptions();
+  const { Image8, projectImg1, Sravani } = React.Imports(
+    ({ assets }) => assets
+  );
+
   const cardsData = [
     {
       image: projectImg1,
-      title: "PDS Galaxy",
-      content: "PDS Galaxy provides  services for the Health sector",
+      title: "YumYard",
+      content:
+        "YumYard is a dynamic and user-friendly food discovery and delivery platform developed using React. The application connects users with local restaurants and food outlets, offering a seamless experience for exploring diverse cuisines and ordering meals online.",
       date: "Dec 23, 2021",
       readTime: "5 min read",
     },
-    {
-      image: projectImg1,
-      title: "NCUK-The University Consortium ",
-      content: "NCUK is unique in UK higher education. ",
-      date: "Dec 23, 2021",
-      readTime: "3 min read",
-    },
-    {
-      image: projectImg1,
-      title: "SIC",
-      content: "PDS-SIC is an Integrated Web solution for Secure Email",
-      date: "Dec 23, 2021",
-      readTime: "5 min read",
-    },
-    // Add more card data as needed
   ];
   const [anchorEl, setAnchorEl] = React.useState(null);
   const navigate = useNavigate();
@@ -79,65 +43,6 @@ function HomeIndex() {
   //   setAnchorEl(null);
   // };
 
-  const skills = [
-    {
-      language: "HTML",
-      // experience: yearsAndMonthsCompleted(),
-      icon: htmlicon,
-    },
-    {
-      language: "CSS",
-      // experience: yearsAndMonthsCompleted(),
-      icon: cssicon,
-    },
-    {
-      language: "JavaScript",
-      // experience: yearsAndMonthsCompleted(),
-      icon: jsicon,
-    },
-
-    {
-      language: "ReactJS",
-      // experience: yearsAndMonthsCompleted(),
-      icon: reactlogo,
-    },
-
-    {
-      language: "Redux Toolkit",
-      // experience: yearsAndMonthsCompleted(),
-      icon: reduxtoolkit,
-    },
-    {
-      language: "Git",
-      // experience: yearsAndMonthsCompleted(),
-      icon: giticon,
-    },
-    {
-      language: "GitHub",
-      // experience: yearsAndMonthsCompleted(),
-      icon: githubicon,
-    },
-    {
-      language: "Material-UI",
-      // experience: yearsAndMonthsCompleted(),
-      icon: muiicon,
-    },
-    {
-      language: "Formik",
-      // experience: yearsAndMonthsCompleted(),
-      icon: formikicon,
-    },
-    {
-      language: "Yup",
-      // experience: yearsAndMonthsCompleted(),
-      icon: yupicon,
-    },
-    {
-      language: "Axios",
-      // experience: yearsAndMonthsCompleted(),
-      icon: axiosicon,
-    },
-  ];
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
   return (
@@ -349,25 +254,6 @@ function HomeIndex() {
               {/* <img src={Image6} alt="projects" className="ProjectsStamp" /> */}
               {/* <img src={Image4} alt="girlImage" className="profileImage" /> */}
             </div>
-          </Grid>
-        </Grid>
-        <Grid container className="skillsContainer">
-          <h1>Skills</h1>
-          <Grid item xs={3}></Grid>
-          <Grid item xs={4}>
-            <ReactECharts option={DONUT_OPTIONS} />
-          </Grid>
-          <Grid item xs={3}></Grid>
-          <Grid item className="donut-names">
-            {skills?.map((each) => {
-              return (
-                <ReUsableCard
-                  profile={each?.icon}
-                  course={each?.language}
-                  experience={each?.experience}
-                />
-              );
-            })}
           </Grid>
         </Grid>
         <Grid container className="projetContainer">

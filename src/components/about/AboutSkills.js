@@ -5,7 +5,7 @@ import Skills from "../assets/skills.png";
 const AboutSkill = () => {
   const React = document.React;
   const { Grid } = React.Imports(({ materialUI }) => materialUI);
-  const { yearsAndMonthsCompleted } = React.Imports(({ utils }) => utils);
+  // const { yearsAndMonthsCompleted } = React.Imports(({ utils }) => utils);
   return (
     <Grid
       container
@@ -16,17 +16,21 @@ const AboutSkill = () => {
       <Grid items xs={12} md={6} className="skillsContainerRight">
         <div style={{ textAlign: "center" }}>
           {[
-            // ...ABOUT_DESCRIPTION_CARD,
             { skill: "Html" },
             { skill: "Css" },
             { skill: "JavaScript" },
             { skill: "React" },
-            { skill: "Redux and ReduxToolkit" },
+            { skill: "Redux-Toolkit" },
+            { skill: "Bootstrap" },
+            { skill: "Material-UI" },
+            { skill: "Git" },
+            { skill: "Github" },
+            { skill: "Axios" },
           ]?.map((each, index) => {
             return (
               <div className="skillsCardContainer">
                 <p>{each.skill}</p>
-                <p className="yearsExp">{yearsAndMonthsCompleted()}</p>
+                {/* <p className="yearsExp">{yearsAndMonthsCompleted()}</p> */}
               </div>
             );
           })}
