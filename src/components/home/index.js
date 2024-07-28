@@ -255,9 +255,13 @@ function HomeIndex() {
             </div>
             <div>
               <h1>{`🌟 Aspiring Front-End Developer | Crafting Seamless Web Experiences 🌟`}</h1>
-              <p>{`Hello! I'm ${(
-                <b>Sravani Purimitla</b>
-              )}, a passionate front-end developer with a knack for creating dynamic and user-friendly web interfaces. Armed with a robust toolkit that includes HTML, CSS, JavaScript, and a suite of modern technologies, I am ready to dive into the exciting world of web development.`}</p>
+              <p>
+                Hello! I'm <b>Sravani Purimitla</b>, a passionate front-end
+                developer with a knack for creating dynamic and user-friendly
+                web interfaces. Armed with a robust toolkit that includes HTML,
+                CSS, JavaScript, and a suite of modern technologies, I am ready
+                to dive into the exciting world of web development.
+              </p>
               <h2>{`🔧 Skills & Tools:`}</h2>
               <p>
                 <b>Core Technologies: </b>HTML, CSS, JavaScript
