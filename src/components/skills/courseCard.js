@@ -17,6 +17,7 @@ function CourseCard() {
             { skill: "Asynchronus Javascript" },
             { skill: "Material-UI" },
             { skill: "Git" },
+            { skill: "React-router" },
             { skill: "Github" },
             { skill: "Formik" },
             { skill: "Yup" },

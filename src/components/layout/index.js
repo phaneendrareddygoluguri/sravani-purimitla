@@ -209,7 +209,12 @@ function Layout({ children }) {
           </Link>
         </Box>
         <span className="drawerIconButton">
-          <Button id="downloadButton">
+          <Button
+            id="downloadButton"
+            onClick={() => {
+              onDownload();
+            }}
+          >
             <FileDownloadIcon style={{ width: "18px", marginTop: "4px" }} />
             {DOWNLOAD_BUTTON_TEXT}
           </Button>

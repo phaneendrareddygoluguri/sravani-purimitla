@@ -23,6 +23,7 @@ const AboutSkill = () => {
             { skill: "Redux-Toolkit" },
             { skill: "Bootstrap" },
             { skill: "Material-UI" },
+            { skill: "React-router" },
             { skill: "Git" },
             { skill: "Github" },
             { skill: "Axios" },

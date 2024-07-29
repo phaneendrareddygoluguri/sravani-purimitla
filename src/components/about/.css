@@ -25,6 +25,8 @@
   color: rgb(167, 1, 233);
   background-color: rgba(216, 216, 216, 0.1);
   padding: 10px 0px;
+  margin-bottom: 60px;
+  margin-top: 60px;
   /* border: 2px solid red; */
 }
 .card-headings h5 {

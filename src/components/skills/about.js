@@ -10,7 +10,7 @@ const About = () => {
         <div className="aboutContainerHeader">
           <div className="about">{ABOUT}</div>
           <div className="opentowork">
-            <WorkIcon style={{ width: "15px", margin: "0px 4px" }} />
+            <WorkIcon style={{ width: "18px", margin: "0px 4px" }} />
             {OPEN_TO_WORK}
           </div>
         </div>

@@ -23,10 +23,10 @@ const AboutCard = () => {
     .filter((item) => item)
     .map((item, index) => <li key={index}>{item}</li>);
   return (
-    <div>
+    <div style={{ marginTop: "50px" }}>
       <div className="aboutContainerHeader">
         <div className="about" style={{ display: "flex" }}>
-          {ABOUT}{" "}
+          {ABOUT}
           <div className="opentowork">
             <WorkIcon style={{ width: "15px", margin: "0px 4px" }} />
             {OPEN_TO_WORK}

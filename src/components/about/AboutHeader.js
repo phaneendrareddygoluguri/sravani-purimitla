@@ -3,10 +3,8 @@ import { Avatar, Chip } from "@mui/material";
 function AboutHeader() {
   const React = document.React;
   const { Box, Grid } = React.Imports(({ materialUI }) => materialUI);
-  // const { AboutBulb, AboutGirl } = React.Imports(({ assets }) => assets);
 
   const skills = [
-    { text: "Passionate Frontend Developer", emoji: "🧑‍💻" },
     { text: "React.js", emoji: "💻" },
     { text: "JavaScript", emoji: "🌐" },
     { text: "Redux-Toolkit", emoji: "🔄" },
@@ -14,8 +12,7 @@ function AboutHeader() {
     { text: "CSS", emoji: "🎨" },
     { text: "Bootstrap", emoji: "🅱️" },
     { text: "Material-UI", emoji: "🧱" },
-    { text: "Formik", emoji: "📝" },
-    { text: "Yup", emoji: "✅" },
+    { text: "React-Router", emoji: "🔃" },
     { text: "Git & GitHub Enthusiast", emoji: "🔗" },
     { text: "Axios", emoji: "🌐" },
   ];
@@ -25,26 +22,15 @@ function AboutHeader() {
       <Box className="card-headings">
         <h5>Sravani Purimitla</h5>
         <p>
-          {skills.map((skill, index) => (
+          {skills?.map((skill, index) => (
             <>
               <Chip
-                avatar={<Avatar>{skill.emoji}</Avatar>}
-                label={skill.text}
-                style={{ margin: "2px" }}
+                avatar={<Avatar>{skill?.emoji}</Avatar>}
+                label={skill?.text}
+                style={{ margin: "1px" }}
               />
               {index < skills.length - 1 && " | "}
             </>
-            // <span
-            //   key={index}
-            //   style={{
-            //     marginBottom: "25px",
-            //     marginTop: "25px",
-            //   }}
-            // >
-            //   <span>
-            //     {skill.text} {skill.emoji} {index < skills.length - 1 && " | "}
-            //   </span>
-            // </span>
           ))}
         </p>
       </Box>
